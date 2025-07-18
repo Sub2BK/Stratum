@@ -11,6 +11,8 @@ getgenv().AutoSummerEvent = {
 
     ["_GOptimizationAutoRejoin"] = 3600,  -- Auto Rejoin After X Seconds (TO REDUSE THE LAG), (Set false or nil to disable)
     ["_GOptimizationsLastestVersion"] = true,  -- Auto Able Optimizations
+    ["_GAutoServerHop"] = true, -- Enable/disable Auto Server Hopping.
+    ["_GAutoServerHopEggChance"] = {"100x"}, -- Stop Hopping If a Titanic Egg Is Found With Selected Chance(s)
 
     ["_GAutoCollectOrbs"] = true,  -- Auto Collect Orbs & Lootbags
 
@@ -29,9 +31,9 @@ getgenv().AutoSummerEvent = {
     ["_GAutoTeleportToOthersEggs"] = true,  -- (Recommended Always on), Means It Will Teleport To Other Players Eggs
     ["_GAutoTeleportToBestEgg"] = true,  -- Auto Teleport To Best Egg (Luck Chance)
     ["_GAutoTeleportToBestTitanicEgg"] = true,  -- Auto Teleport To Best TITANIC Egg (Luck Chance)
-    ["_GEggScanInterval"] = 10,    -- Egg Scan Interbal
+    ["_GEggScanInterval"] = 1,    -- Egg Scan Interbal
 
-    ["_GHatchStopIslandProgress"] = 50,    -- If Island Progress Less Than E.g (50) Stop Hatching
+    ["_GHatchStopIslandProgress"] = 30,    -- If Island Progress Less Than E.g (50) Stop Hatching
     ["_GHatchEggs"] = true,  -- Auto Hatch Egg
     ["_GHatchDelay"] = 1,   -- Hatch Delay
 }
