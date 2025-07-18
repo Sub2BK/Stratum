@@ -2,10 +2,11 @@
 getgenv().AutoSummerEvent = {
     ["_GEnabled"] = true,  -- Whole Script Control true/false
 
-    ["_GWebhookID"] = "1273135650287390763", -- ID/Role To Ping (Leave "" For No Ping)
-    ["_GWebhookURL"] = "https://discord.com/api/webhooks/1294621168988323840/5eB_gMel5O4Aar79d9_qov7PjKldEBSsIYmoN6cd2sah3tLfXuB2wbVlTjOjOPByQQM-",
+    ["_GWebhookID"] = "", -- ID/Role To Ping (Leave "" For No Ping)
+    ["_GWebhookURL"] = "YOUR_WEBHOOK_HERE",
     ["_GWebhookForcedPets"] = {
-        {"Floatie Penguin", "All"}
+        {"Test Pet", "All"}, {"Test Pet", 1}, {"Test Pet", 2},
+        {"Test Pet", true}, {"Test Pet", 1, true}, {"Test Pet", 2, true}
     },
 
     ["_GOptimizationAutoRejoin"] = 3600,  -- Auto Rejoin After X Seconds (TO REDUSE THE LAG), (Set false or nil to disable)
@@ -26,11 +27,11 @@ getgenv().AutoSummerEvent = {
     ["_GSkipRebirthOnNormalEgg"] = {"100x"}, -- Stop Rebirth On Selected Egg Chance, {"100x", "25x", "5x", "2x", "1x"}
     
     ["_GAutoTeleportToOthersEggs"] = true,  -- (Recommended Always on), Means It Will Teleport To Other Players Eggs
-    ["_GAutoTeleportToBestEgg"] = false,  -- Auto Teleport To Best Egg (Luck Chance)
-    ["_GAutoTeleportToBestTitanicEgg"] = false,  -- Auto Teleport To Best TITANIC Egg (Luck Chance)
+    ["_GAutoTeleportToBestEgg"] = true,  -- Auto Teleport To Best Egg (Luck Chance)
+    ["_GAutoTeleportToBestTitanicEgg"] = true,  -- Auto Teleport To Best TITANIC Egg (Luck Chance)
     ["_GEggScanInterval"] = 10,    -- Egg Scan Interbal
 
-    ["_GHatchStopIslandProgress"] = 0,    -- If Island Progress Less Than E.g (50) Stop Hatching
+    ["_GHatchStopIslandProgress"] = 50,    -- If Island Progress Less Than E.g (50) Stop Hatching
     ["_GHatchEggs"] = true,  -- Auto Hatch Egg
     ["_GHatchDelay"] = 1,   -- Hatch Delay
 }
