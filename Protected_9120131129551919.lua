@@ -11,36 +11,36 @@ getgenv().AutoSummerEvent = {
 
     ["_GOptimizationsLastestVersion"] = true,  -- Auto Able Optimizations
     ["_GOptimizationsStatUI"] = true,
-    ["_GOptimizationAutoRejoin"] = 3600,  -- Auto Rejoin After X Seconds (TO REDUSE THE LAG), (Set false or nil to disable)
+    ["_GOptimizationAutoRejoin"] = nil,  -- Auto Rejoin After X Seconds (Set false or nil to disable)
     
     ["_GAutoServerHop"] = true, -- Enable/disable Auto Server Hopping.
     ["_GAutoServerHopEggChance"] = {"100x", "25x"}, -- Stop Hopping If a Titanic Egg Is Found With Selected Chance(s)
 
-    --[[(Set nil to disable SkipRebirth)]]
-    ["_GAutoRebirth"] = true,  -- Auto Rebirth
-    ["_GRebirthDelay"] = 120,     -- Auto Rebirth Delay
-    ["_GSkipRebirthOnTitanicEgg"] = {"100x", "25x"}, -- Stop Rebirth On Selected TITANIC Egg Chance, {"100x", "25x", "5x", "2x", "1x"}
-    ["_GSkipRebirthOnNormalEgg"] = {"100x"}, -- Stop Rebirth On Selected Egg Chance, {"100x", "25x", "5x", "2x", "1x"}
+    ["_GAutoTiles"] = true,  -- Auto Buy Blocks/Tiles
+    ["_GTilesDelay"] = 1,     -- Auto Buy Blocks/Tiles Delay
 
-    ["_GAutoTeleportToBestSelectedTitanicEggs"] = {"Five", "Six", "Seven", "Eight"}, -- Auto Teleport To Selected Titanic Eggs
-    ["_GSkipRebirthOnSelectedTitanicEggs"] = {"Five", "Six", "Seven", "Eight"}, -- Skip Rebirth via Selected Titanic Eggs & Luck
-    
-    ["_GAutoTeleportToOthersEggs"] = true,  -- (Recommended Always on), Means It Will Teleport To Other Players Eggs
-    ["_GAutoTeleportToBestEgg"] = true,  -- Auto Teleport To Best Egg (Luck Chance)
-    ["_GAutoTeleportToBestTitanicEgg"] = true,  -- Auto Teleport To Best TITANIC Egg (Luck Chance)
-    ["_GEggScanInterval"] = 1,     -- Egg Scan Interbal
+    ["_GAutoRewards"] = true,  -- Auto Claim/Buy Rewards
+    ["_GRewardsDelay"] = 20,     -- Auto Claim/Buy Rewards Delay
+
+    ["_GAutoRaffle"] = true,  -- Auto Enter Raffle Each Round
+    ["_GRaffleAmount"] = 10,     -- Amount Of Tickets Per Raffle, Difficult Is 10.
 
     ["_GHatchStopIslandProgress"] = 50,     -- If Island Progress Less Than E.g (50) Stop Hatching
     ["_GHatchEggs"] = true,  -- Auto Hatch Egg
     ["_GHatchDelay"] = 0.2,   -- Hatch Delay
 
-    ["_GAutoTiles"] = true,  -- Auto Buy Blocks/Tiles
-    ["_GTilesDelay"] = 15,     -- Auto Buy Blocks/Tiles Delay
+    --[[(Set nil to disable SkipRebirth)]]
+    ["_GAutoRebirth"] = true,  -- Auto Rebirth
+    ["_GRebirthDelay"] = 120,     -- Auto Rebirth Delay
+    ["_GSkipRebirthOnNormalEgg"] = {"100x"}, -- Stop Rebirth On Selected Egg Chance, {"100x", "25x", "5x", "2x", "1x"}
+    ["_GSkipRebirthOnTitanicEgg"] = {"100x", "25x"}, -- Stop Rebirth On Selected TITANIC Egg Chance, {"100x", "25x", "5x", "2x", "1x"}
+    ["_GSkipRebirthOnSelectedTitanicEggs"] = {"Five", "Six", "Seven", "Eight"}, -- Skip Rebirth via Selected Titanic Eggs & Luck
 
-    ["_GAutoRewards"] = true,  -- Auto Claim/Buy Rewards
-    ["_GRewardsDelay"] = 10,     -- Auto Claim/Buy Rewards Delay
-
-    ["_GAutoCollectOrbs"] = true,  -- Auto Collect Orbs & Lootbags
+    ["_GEggScanInterval"] = 1,     -- Egg Scan Interbal
+    ["_GAutoTeleportToOthersEggs"] = true,  -- (Recommended Always on), Means It Will Teleport To Other Players Eggs
+    ["_GAutoTeleportToBestEgg"] = true,  -- Auto Teleport To Best Egg (Luck Chance)
+    ["_GAutoTeleportToBestTitanicEgg"] = true,  -- Auto Teleport To Best TITANIC Egg (Luck Chance)
+    ["_GAutoTeleportToBestSelectedTitanicEggs"] = {"Five", "Six", "Seven", "Eight"}, -- Auto Teleport To Selected Titanic Eggs
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Sub2BK/Stratum/refs/heads/Scripts/PS99_Event.lua"))()
