@@ -4,10 +4,6 @@ getgenv().AutoSummerEvent = {
 
     ["_GWebhookID"] = "", -- ID/Role To Ping (Leave "" For No Ping)
     ["_GWebhookURL"] = "YOUR_WEBHOOK_HERE",
-    ["_GWebhookForcedPets"] = {
-        {"Test Pet", "All"}, {"Test Pet", 1}, {"Test Pet", 2},
-        {"Test Pet", true}, {"Test Pet", 1, true}, {"Test Pet", 2, true}
-    },
 
     ["_GOptimizationsLastestVersion"] = true,  -- Auto Able Optimizations
     ["_GOptimizationsStatUI"] = true,
