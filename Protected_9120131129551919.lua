@@ -18,21 +18,21 @@ getgenv().AutoSummerEvent = {
 
     --[[(Set nil to disable SkipRebirth)]]
     ["_GAutoRebirth"] = true,  -- Auto Rebirth
-    ["_GRebirthDelay"] = 120,    -- Auto Rebirth Delay
+    ["_GRebirthDelay"] = 120,     -- Auto Rebirth Delay
     ["_GSkipRebirthOnTitanicEgg"] = {"100x", "25x"}, -- Stop Rebirth On Selected TITANIC Egg Chance, {"100x", "25x", "5x", "2x", "1x"}
     ["_GSkipRebirthOnNormalEgg"] = {"100x"}, -- Stop Rebirth On Selected Egg Chance, {"100x", "25x", "5x", "2x", "1x"}
 
-    ["_GAutoTeleportToBestSelectedTitanicEggs"] = {"Five", "Six", "Seven", "Eight"}, 
-    -- Options: "Five", "Six", "Seven", "Eight" | All The Eggs Got The Same Pets, Seven & Eight For LB
+    ["_GAutoTeleportToBestSelectedTitanicEggs"] = {"Five", "Six", "Seven", "Eight"}, -- Auto Teleport To Selected Titanic Eggs
+    ["_GSkipRebirthOnSelectedTitanicEggs"] = {"Five", "Six", "Seven", "Eight"}, -- Skip Rebirth via Selected Titanic Eggs & Luck
     
     ["_GAutoTeleportToOthersEggs"] = true,  -- (Recommended Always on), Means It Will Teleport To Other Players Eggs
     ["_GAutoTeleportToBestEgg"] = true,  -- Auto Teleport To Best Egg (Luck Chance)
     ["_GAutoTeleportToBestTitanicEgg"] = true,  -- Auto Teleport To Best TITANIC Egg (Luck Chance)
-    ["_GEggScanInterval"] = 1,    -- Egg Scan Interbal
+    ["_GEggScanInterval"] = 1,     -- Egg Scan Interbal
 
-    ["_GHatchStopIslandProgress"] = 50,    -- If Island Progress Less Than E.g (50) Stop Hatching
+    ["_GHatchStopIslandProgress"] = 50,     -- If Island Progress Less Than E.g (50) Stop Hatching
     ["_GHatchEggs"] = true,  -- Auto Hatch Egg
-    ["_GHatchDelay"] = 1,   -- Hatch Delay
+    ["_GHatchDelay"] = 0.2,   -- Hatch Delay
 
     ["_GAutoTiles"] = true,  -- Auto Buy Blocks/Tiles
     ["_GTilesDelay"] = 15,     -- Auto Buy Blocks/Tiles Delay
