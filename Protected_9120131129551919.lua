@@ -5,7 +5,7 @@ getgenv().AutoSummerEvent = {
     ["_GWebhookID"] = "", -- ID/Role To Ping (Leave "" For No Ping)
     ["_GWebhookURL"] = "YOUR_WEBHOOK_HERE",
 
-    ["_GMailEnable"] = true, -- MASTER TOGGLE: Set to false to disable the entire script.
+    ["_GMailEnable"] = false, -- Auto Mail Toggle
     ["_GMailItems"] = {
         -- E.g. ["Summer Block Party Ticket"] = { Class = "Misc", Target = 10 }, Send when you have 10 or more.
         ["Summer Block Party Ticket"] = { Class = "Misc", Target = YOUR_OWN_TARGET },
