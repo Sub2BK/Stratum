@@ -1,0 +1,11 @@
+-- Configs/Settings
+getgenv().AutoDaycare = {
+    ["_GAuto_Enroll"] = true, -- Auto Enroll The Pets After Claiming
+    ["_GAuto_Claim"] = true, -- Auto Claim The Pets
+    ["_GMax_Pets_Per_Enroll"] = 10, -- Add Your Highest Amount
+
+    --[[ Please Note That You Must Have Pets Already In The Daycare,
+        So The Script Will Claim It Then Enroll. Thanks ]]
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sub2BK/Stratum/refs/heads/Scripts/Auto_Daycare"))()
