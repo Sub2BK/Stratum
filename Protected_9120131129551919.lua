@@ -5,6 +5,22 @@ getgenv().AutoSummerEvent = {
     ["_GWebhookID"] = "", -- ID/Role To Ping (Leave "" For No Ping)
     ["_GWebhookURL"] = "YOUR_WEBHOOK_HERE",
 
+    ["_GMailEnable"] = true, -- MASTER TOGGLE: Set to false to disable the entire script.
+    ["_GMailItems"] = {
+        -- E.g. ["Summer Block Party Ticket"] = { Class = "Misc", Target = 10 }, Send when you have 10 or more.
+        ["Summer Block Party Ticket"] = { Class = "Misc", Target = YOUR_OWN_TARGET },
+    },
+    ["_GMailLoopInterval"] = 3600,
+    ["_GMailUsername"] = {}, -- E.g. ["_GMailUsername"] = {"SigmaBoy123"},
+    ["_GMailDebug"] = true, -- For Devs
+    ["_GMailOnlySendNewSpecials"] = true, -- If true, only sends newly obtained Huges, Titanics, and Eggs.
+    ["_GMailAutoSendSpecials"] = {
+    -- Auto Send Huges, Titanics and Eggs
+        ["Huges"] = false,
+        ["Titanics"] = false,
+        ["Eggs"] = false
+    },
+
     ["_GOptimizationsLastestVersion"] = true,  -- Auto Able Optimizations
     ["_GOptimizationsStatUI"] = true,
     ["_GOptimizationAutoRejoin"] = nil,  -- Auto Rejoin After X Seconds (Set false or nil to disable)
@@ -13,10 +29,10 @@ getgenv().AutoSummerEvent = {
     ["_GAutoServerHopEggChance"] = {"100x", "25x"}, -- Stop Hopping If a Titanic Egg Is Found With Selected Chance(s)
 
     ["_GAutoTiles"] = true,  -- Auto Buy Blocks/Tiles
-    ["_GTilesDelay"] = 1,     -- Auto Buy Blocks/Tiles Delay
+    ["_GTilesDelay"] = 0,     -- Auto Buy Blocks/Tiles Delay
 
     ["_GAutoRewards"] = true,  -- Auto Claim/Buy Rewards
-    ["_GRewardsDelay"] = 20,     -- Auto Claim/Buy Rewards Delay
+    ["_GRewardsDelay"] = 1,     -- Auto Claim/Buy Rewards Delay
 
     ["_GAutoRaffle"] = true,  -- Auto Enter Raffle Each Round
     ["_GRaffleAmount"] = 10,     -- Amount Of Tickets Per Raffle, Difficult Is 10.
