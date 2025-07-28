@@ -3,7 +3,7 @@ getgenv().AutoMail = {
 -- E.g. ["Summer Block Party Ticket"] = { Class = "Misc", Target = 10 }, Send when you have 10 or more.
         ["Summer Block Party Ticket"] = { Class = "Misc", Target = YOUR_OWN_TARGET },
     },
-    ["Loop Interval"] = 5,
+    ["Loop Interval"] = 3600,
     ["Username"] = {}, -- Your Username Here, E.g: {"SigmaBoy123"},
     ["Debug"] = false, -- For Devs
     ["Auto Send Specials"] = {
