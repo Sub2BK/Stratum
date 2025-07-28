@@ -13,19 +13,19 @@ getgenv().AutoSummerEvent = {
     ["_GAutoServerHopEggChance"] = {"100x", "25x"}, -- Stop Hopping If a Titanic Egg Is Found With Selected Chance(s)
 
     ["_GAutoTiles"] = true,  -- Auto Buy Blocks/Tiles
-    ["_GTilesDelay"] = 0,     -- Auto Buy Blocks/Tiles Delay
+    ["_GTilesDelay"] = 5,     -- Auto Buy Blocks/Tiles Delay
 
     ["_GAutoRewards"] = true,  -- Auto Claim/Buy Rewards
-    ["_GRewardsDelay"] = 1,     -- Auto Claim/Buy Rewards Delay
+    ["_GRewardsDelay"] = 10,     -- Auto Claim/Buy Rewards Delay
 
     ["_GAutoRaffle"] = true,  -- Auto Enter Raffle Each Round
-    ["_GRaffleAmount"] = 1,     -- Amount Of Tickets Per Raffle, Difficult Is 10.
+    ["_GRaffleAmount"] = 10,     -- Amount Of Tickets Per Raffle, Difficult Is 10.
 
     ["_GAutoCraftGifts"] = true, -- Auto Craft Gifts Via Tropical Flowers
 
     ["_GHatchStopIslandProgress"] = 50,     -- If Island Progress Less Than E.g (50) Stop Hatching
     ["_GHatchEggs"] = true,  -- Auto Hatch Egg
-    ["_GHatchDelay"] = 0.2,   -- Hatch Delay
+    ["_GHatchDelay"] = 0,   -- Hatch Delay
 
     --[[(Set nil to disable SkipRebirth)]]
     ["_GAutoRebirth"] = true,  -- Auto Rebirth
