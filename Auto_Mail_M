@@ -1,0 +1,18 @@
+getgenv().AutoMail = {
+    ["Items"] = {
+-- E.g. ["Summer Block Party Ticket"] = { Class = "Misc", Target = 10 }, Send when you have 10 or more.
+        ["Summer Block Party Ticket"] = { Class = "Misc", Target = YOUR_OWN_TARGET },
+    },
+    ["Loop Interval"] = 5,
+    ["Username"] = {}, -- Your Username Here, E.g: {"SigmaBoy123"},
+    ["Debug"] = false, -- For Devs
+    ["Auto Send Specials"] = {
+    -- Auto Send Huges, Titanics and Eggs
+        ["Huges"] = false,
+        ["Titanics"] = false,
+        ["Eggs"] = false
+    },
+    ["Only Send New Specials"] = true -- Only Send Newly Obtained Huges, Titanics, and Eggs
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sub2BK/Stratum/refs/heads/Scripts/Auto_Mail_lua"))()
