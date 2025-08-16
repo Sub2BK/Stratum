@@ -10,19 +10,9 @@ getgenv().Grow_a_Garden = {
     ["Auto_Sell_OnMaxInventory"] = false,
     ["Auto_Move_Pets_Into_Middle"] = false,
 
-    -- Cooking Settings
-    ["Auto_Cook_Event"] = false,
-    ["Fruits_To_Cook"] = {}, -- {"All_Fruits"} or specific like {"Carrot", "Strawberry"}
-    ["Fruits_To_Submit_Count"] = 5, -- How many individual fruits to submit before cooking. (Max: 5)
-    ["Fruit_Mutations"] = {}, -- {"All_Mutations"}, {"Unmutated"}, or specific like {"Wet"}
-    ["Fruit_Mutations_Method"] = "", -- "Exact Match" or "Any Match"
-    ["Auto_Claim_Rewards"] = false, -- Set to false to disable only the reward claiming part.
-    ["Reward_Interval"] = 5,
-    ["Cook_Interval"] = 10,
-
     -- Buying Settings
     ["Auto_Buy_Seeds"] = false,
-    ["Seeds_To_Buy"] = {}, -- {"All_Seeds"} or specific like {"Carrot", "Strawberry"}
+    ["Seeds_To_Buy"] = {"All_Seeds"}, -- {"All_Seeds"} or specific like {"Carrot", "Strawberry"}
     ["Seeds_Interval"] = 0,
 
     ["Auto_Buy_Eggs"] = false,
@@ -35,12 +25,12 @@ getgenv().Grow_a_Garden = {
         
     -- Farming Settings
     ["Auto_Harvest_Plants"] = false,
-    ["Plants_To_Harvest"] = {}, -- {"All_Plants"} or specific like {"Carrot", "Strawberry"}
+    ["Plants_To_Harvest"] = {"Carrot"}, -- {"All_Plants"} or specific like {"Carrot", "Strawberry"}
     ["Harvest_Mutations"] = {}, -- {"Unmutated"}, {"All_Mutations"} or specific like {"Wet", "Frozen"}
-    ["Harvest_Interval"] = 1,
+    ["Harvest_Interval"] = 0,
 
     ["Auto_Plant_Seeds"] = false,
-    ["Seeds_To_Plant"] = {}, -- {"Carrot", "Strawberry"} or {"All_Seeds"}
+    ["Seeds_To_Plant"] = {"Carrot"}, -- {"Carrot", "Strawberry"} or {"All_Seeds"}
     ["Planting_Interval"] = 0,
 
     -- Pet Settings
