@@ -12,7 +12,7 @@ getgenv().Grow_a_Garden = {
 
     -- Buying Settings
     ["Auto_Buy_Seeds"] = false,
-    ["Seeds_To_Buy"] = {"All_Seeds"}, -- {"All_Seeds"} or specific like {"Carrot", "Strawberry"}
+    ["Seeds_To_Buy"] = {}, -- {"All_Seeds"} or specific like {"Carrot", "Strawberry"}
     ["Seeds_Interval"] = 0,
 
     ["Auto_Buy_Eggs"] = false,
