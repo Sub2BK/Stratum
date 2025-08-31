@@ -18,4 +18,6 @@ if currentgame then
     elseif currentgame == "Tap_Infinity" then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Sub2BK/Stratum/refs/heads/Scripts/Tap_Infinity.lua"))()
     end
+else
+    print("Stratum loader: The current game (ID: " .. game.PlaceId .. ") is not in the supported list.")
 end
