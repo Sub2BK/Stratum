@@ -2,7 +2,6 @@ local gameIDS = {
     [109983668079237] = "Steal_a_Brainrot",
     [74866348003583] = "Steal_a_Pet",
     [12177325772] = "Super_League_Soccer",
-    [126195208568849] = "Super_League_Soccer",
     [101914543102200] = "Tap_Infinity"
 }
 
